@@ -29,6 +29,7 @@
 - Commit LESSONS.md with your other changes.
 
 ## Git workflow
+- Always sync to `main` first (fetch and merge `origin/main` into your branch) so you have the latest files in the repo.
 - Develop on the assigned branch, commit with clear messages, and push.
 - When done, merge the branch into `main` and push `main`.
 - Do NOT open pull requests.
