@@ -26,6 +26,7 @@
 ## Communication
 - Explain every change in plain English: what changed and why, with no jargon.
 - Say what a result means, not just what the code printed.
+- Never write narrative text, interpretation, or write-ups on your own. Only insert text I give you, exactly as written.
 
 ## Lessons
 @LESSONS.md
