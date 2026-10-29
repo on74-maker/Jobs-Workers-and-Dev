@@ -17,6 +17,12 @@
 - Load data from a path or Google Drive mount that is stated in a comment.
 - Do not commit raw IPUMS data files (large and covered by IPUMS terms of use); keep them out of git (`.gitignore`).
 
+## Weights and charts
+- Use `asecwt` for person-level survey weights. Use it in every table and chart.
+- Before any chart, print the weighted table it will show, with labels and 1 decimal.
+- A chart shows exactly the printed table, and axis labels give units.
+- All y-axis scales and labels should include 0.
+
 ## Communication
 - Explain every change in plain English: what changed and why, with no jargon.
 - Say what a result means, not just what the code printed.
